@@ -1,0 +1,22 @@
+//ejercicio 4 de clase 16 de agosto//
+      //ANDERSON SARMIENTO//
+      
+     entero  numero, suma_serie
+     		cadena [2] bandera
+     		inicio 
+     			numero <-1
+     			suma_serie <- 0
+     			bandera <-" t "
+     				mientras ( numero <7 ) haga 
+     					suma_serie <- suma_serie +numero
+     					llamar nueva_linea
+     				 		si ( bandera = " t " entonces
+     				 			numero <- numero +2 
+     				 		sino
+     				 			numero <- numero +1
+     				 			badera <-"t"
+     				 		fin si
+     				 fin mientras
+     				 llamar nueva_linea
+     				 escriba suma_serie
+     		fin	
