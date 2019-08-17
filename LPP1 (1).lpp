@@ -80,14 +80,6 @@ inicio
 		escriba "el area del circulo: ",area	
 	sino: escriba "opcion figuras invalida"
 	
-
-	
-	
-	
-	
-	
-	
-	
 fin caso			
 sino:	escriba "opcion invalida "
 fin caso
