@@ -1,0 +1,96 @@
+real  a,b,ca
+
+caracter c opcion3
+
+entero opcion2,base,h,area, radio,numero, suma_serie
+cadena [10] nonbre
+cadena [2] bandera
+
+inicio
+		escriba "ingrese un caracter del menu"
+			llamar nueva_linea
+		escriba "s para la suma "
+			llamar nueva_linea
+		escriba "r para restar"
+			llamar nueva_linea	
+		escriba "p para opciones"
+			llamar nueva_linea	
+		escriba "caracter distintos a r,s para terminar "
+			llamar nueva_linea
+	lea c
+	caso c
+	'S','s':escriba " vamos a la suma"
+			llamar nueva_linea
+		escriba "ingrese el primer numero"
+			llamar nueva_linea
+	lea a			
+		escriba "ingrese el segundo numero"
+			llamar nueva_linea
+	lea b
+			llamar nueva_linea
+		ca <- a+b
+			llamar nueva_linea
+		escriba "la suma es ", ca
+			llamar nueva_linea
+	'r': escriba " vamos a restar "
+			llamar nueva_linea
+			escriba "ingrese el primer numero"
+			llamar nueva_linea			
+			lea a			
+		escriba "ingrese el segundo numero"
+			llamar nueva_linea
+	lea b
+			llamar nueva_linea
+		ca <- a-b
+		escriba "la resta es ", ca
+			llamar nueva_linea
+	'p':escriba "digite opcion a selecionar"
+			llamar nueva_linea
+		escriba "1 para area triangulo"
+			llamar nueva_linea
+		escriba "50 para area cuadrada"
+			llamar nueva_linea
+		escriba "8 para area circular "
+			llamar nueva_linea
+	lea opcion2
+	caso opcion2
+	
+	1  :escriba	"ingrese numero para base"
+			llamar nueva_linea
+		lea base
+			llamar nueva_linea
+		escriba " ingrese el valor de la altura "
+			llamar nueva_linea
+		lea h
+		area<-(base*h)/2
+		escriba "el area del triangulo: ",area
+			llamar nueva_linea
+	50 :escriba	"ingrese numero para base"
+		lea base
+			llamar nueva_linea
+		escriba " ingrese el valor de la altura "
+		lea h
+		area<-(base*h)
+			llamar nueva_linea
+		escriba "el area del cuadrado: ",area
+	8 :escriba	"ingrese el radio"
+		lea radio
+			llamar nueva_linea
+			area<-3.1416*(radio*radio)
+		escriba "el area del circulo: ",area	
+	sino: escriba "opcion figuras invalida"
+	
+
+	
+	
+	
+	
+	
+	
+	
+fin caso			
+sino:	escriba "opcion invalida "
+fin caso
+fin
+										
+				
