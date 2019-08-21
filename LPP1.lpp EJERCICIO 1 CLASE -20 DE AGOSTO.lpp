@@ -1,0 +1,59 @@
+//TRABAJO EN CLASE EJERCICIO 1 DEL 20 DE AGOSTO //
+        // ANDERSON SARMIENTO //
+      
+entero numero1,a,b, multi
+cadena [2]c
+caracter i
+real numero2
+
+inicio	
+	escriba "ingrese un numero entero"
+			llamar color_fondo(10)
+			llamar nueva_linea
+		lea numero1
+			llamar nueva_linea
+			MIENTRAS (numero1= 521 ) HAGA
+				escriba " EXITO"
+				LLAMAR NUEVA_LINEA
+				escriba "ingrese un numero entero"
+				llamar color_fondo(8)
+				llamar nueva_linea
+			lea numero1			
+		FIN MIENTRAS
+				
+	escriba " ingrese una cadena "
+			llamar nueva_linea
+		lea c
+			llamar nueva_linea
+	SI(c = "C") o ( c = "c")entonces 
+	a <- 5
+	b <-10
+	multi<-a*b
+	escriba " su multriplicacion es ",multi
+	llamar nueva_linea 
+	sino
+	a <- 5
+	b <-10
+	multi<-a-b
+	escriba " su resta es ",multi
+	llamar nueva_linea 
+	fin si		
+				
+			
+	escriba "ingrese un un caracter "
+			llamar nueva_linea
+		lea i
+			llamar nueva_linea
+	escriba "ingrese un numero real "
+			llamar nueva_linea
+		lea numero2
+			LLAMAR NUEVA_LINEA
+	ESCRIBA "numero1"
+			llamar nueva_linea
+	escriba "c"
+			llamar nueva_linea
+	escriba " i "
+			llamar nueva_linea
+	escriba " numero2"
+	mientras (numero1 =521)EXITO HAGA
+	fin mientras
