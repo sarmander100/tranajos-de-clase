@@ -1,0 +1,117 @@
+// TRABAJO EN CLASE 22 DE AGOSTO //
+//         ANDERSON SARMIENTO          //
+
+
+entero n
+caracter x
+	inicio
+	llamar nueva_linea
+		para n <- 0 hasta 256 haga
+		x<- car (n)
+			llamar nueva_linea
+			escriba "el caracter asciide", n,"es:",x
+			llamar nueva_linea
+			fin para			
+		n <- 256
+		x <-car (n)
+		escriba "el caracter asciide", n,"es:",x
+			llamar color_fondo (10)
+			llamar nueva_linea
+		lea n	
+			llamar color_fondo (10)
+			
+		fin.	
+			
+	/*		
+			
+	fin
+entero n
+caracter x
+	inicio
+		x <- '@'
+		n <- valor_ascii ( x)
+		escriba "el caracter ascii de ", x ,"es:",n
+		llamar color_fondo (10)
+	fin
+	
+	
+entero n
+cadena [15] x
+	inicio
+		x <- "victor peralta "
+		n <- lomgitud ( x )
+		escriba "la lomgitud en el caracter es ", x ," es :", n
+	fin */
+	
+	
+/*entero r
+	inicio
+		repita
+			lea r
+		//llamar InIcializar_Aleatorio()
+	//	repita 
+		//	r <-aleatorio ()*1
+			escriba " BUENAS NOCHEZ :",r
+			llamar nueva_linea
+		hasta r=0
+	fin 
+	
+
+caracter resp
+real nota
+entero  gana, pierden
+	inicio 
+		gana <-0
+		pierden <- 0
+		repita 
+			escriba "ingrese nota"
+			llamar nueva_linea
+			llamar color_fondo(10)
+			lea nota
+			llamar nueva_linea
+			si (nota >= 60 ) entonces 
+				llamar nueva_linea
+				gana <- pierden +1
+				llamar nueva_linea
+			sino 
+				pierden <- pierden +1
+				llamar nueva_linea
+			fin si
+		//		llamar nueva_linea
+		//	repita
+				escriba "desea continuar oprima? S"
+				llamar nueva_linea
+				escriba "si desea salir presione cualquier tecla"
+				llamar nueva_linea
+				lea resp
+				llamar nueva_linea
+			hasta ( resp = 'N'	) o (resp = 'n')
+	//		hasta ( resp ='n') o ( resp = 'N')
+	//	hasta ( resp ='n') o ( resp = 'N')
+			escriba "----TOTAL APROBADO----",GANA
+			llamar nueva_linea
+			escriba "----TOTAL PERDEDORES----", pierden
+	FIN
+	
+	
+
+caracter respuesta
+entero nota,S
+	inicio
+		repita
+			escriba " ingrese la nota "
+			lea la nota
+				repita 
+					escriba "desea continuar ? s/n"
+					lea respuesta
+				hasta ( respuesta = 'S')o ( respuesta = 'N')
+		hasta ( respuesta = 'N'
+		escriba " QUE NOTA ! "
+	fin
+				
+					
+	*/				
+				
+			
+				
+fin									
